@@ -32,7 +32,7 @@ https://assetstore.unity.com/
 
 Приклад:
 
-![AssetStore 2D Environments](https://media.discordapp.net/attachments/917547349864230912/1469365441221627980/image.png?ex=698764b4&is=69861334&hm=3c28f55949e1985670c54df00598d7eeab2754fc762444b7134c235c06e224b3&=&format=webp&quality=lossless)
+![AssetStore 2D Environments](https://media.discordapp.net/attachments/917547349864230912/1469365441221627980/image.png?ex=69a50e74&is=69a3bcf4&hm=4c44899a0c76c665dee2f730d1ce292f564bdab2a86f36648dc087b6002dfef5&=&format=webp&quality=lossless&width=1334&height=358)
 
 ---
 
@@ -48,7 +48,7 @@ Pricing → Free Assets
 
 Приклад:
 
-![Free Assets Filter](https://media.discordapp.net/attachments/917547349864230912/1469365583240761627/image.png?ex=698764d6&is=69861356&hm=b6ac1618b96455a7a3af95c7477152697151f9508b96cfbdadf52b90bcfe56ab&=&format=webp&quality=lossless)
+![Free Assets Filter](https://media.discordapp.net/attachments/917547349864230912/1469365583240761627/image.png?ex=69a50e96&is=69a3bd16&hm=19d7af6bf3f4435823190bf3ea7e8aa4c031b094cc781f8585fabb7991dd46b9&=&format=webp&quality=lossless&width=1334&height=643)
 
 ---
 
@@ -79,7 +79,7 @@ Pricing → Free Assets
 
 Приклад:
 
-![AssetStore 2D Characters](https://media.discordapp.net/attachments/917547349864230912/1469365862757699665/image.png?ex=69876519&is=69861399&hm=8fdf23ad3f013196e7678d31d609798f1a6564348cc1b3fb55a16f024fcb73e7&=&format=webp&quality=lossless)
+![AssetStore 2D Characters](https://media.discordapp.net/attachments/917547349864230912/1469365862757699665/image.png?ex=69a50ed9&is=69a3bd59&hm=da3988f3b56290f3dd1390c3ca812f94417ae3f7e4eb12a216364bdbd0be0027&=&format=webp&quality=lossless&width=1334&height=344)
 
 ---
 
@@ -127,7 +127,7 @@ Pricing → Free Assets
 
 ## Приклад
 
-![Create Project Screen](https://media.discordapp.net/attachments/917547349864230912/1469367281317449914/image.png?ex=6987666b&is=698614eb&hm=b0a010fc207256d98532d95d12c263ca1672d949b44d38b9e4c675cdeee39df5&=&format=webp&quality=lossless)
+![Create Project Screen](https://media.discordapp.net/attachments/917547349864230912/1469367086626373632/image.png?ex=69a50ffc&is=69a3be7c&hm=c963b4491db2f896c1a1ba3cbf27b42566a907caaac0ce717e80300d7d44b9a0&=&format=webp&quality=lossless&width=1147&height=421)
 
 ---
 
@@ -167,7 +167,7 @@ Create Project
 2. Натисніть кнопку  
 **Add to My Assets**
 
-![Add To My Assets](https://media.discordapp.net/attachments/917547349864230912/1469366391076425728/image.png?ex=69876597&is=69861417&hm=3c29fbc67c32ef0195f013cf95ed07681bbda2aca883b4dc634f4e60faf7343a&=&format=webp&quality=lossless)
+![Add To My Assets](https://media.discordapp.net/attachments/917547349864230912/1469367086940688626/image.png?ex=69a50ffd&is=69a3be7d&hm=fa3774d3513efd4aab3d49c3461a7850c44e358079a4591f2fd650e5bea3ce4d&=&format=webp&quality=lossless&width=1147&height=95)
 
 ---
 
@@ -189,7 +189,7 @@ Create Project
 
 **Download**
 
-![Download Asset](https://media.discordapp.net/attachments/917547349864230912/1469367086940688626/image.png?ex=6987663d&is=698614bd&hm=eefb31beded0307e4f7979213e242c69b21599e1f2decfab2be7671ca1c43c14&=&format=webp&quality=lossless)
+![Download Asset](https://media.discordapp.net/attachments/917547349864230912/1469367086626373632/image.png?ex=69a50ffc&is=69a3be7c&hm=c963b4491db2f896c1a1ba3cbf27b42566a907caaac0ce717e80300d7d44b9a0&=&format=webp&quality=lossless&width=1147&height=421)
 
 ---
 
@@ -601,7 +601,7 @@ Window → Animation → Animator
 
 ## Приклад
 
-![Open Animator And Animation](https://media.discordapp.net/attachments/917547349864230912/1469378726260244724/image.png?ex=69877114&is=69861f94&hm=fda0eb0f5ef7fb35873b54fcf05ed64b01fc284804cdced2188259a6d5580574&=&format=webp&quality=lossless)
+![Open Animator And Animation](https://media.discordapp.net/attachments/917547349864230912/1469378726260244724/image.png?ex=69a51ad4&is=69a3c954&hm=1d01c22b354bb9fe63255e852619578abb85bef47985772130005b361b32185a&=&format=webp&quality=lossless&width=961&height=983)
 
 ---
 
@@ -641,7 +641,7 @@ Window → Animation → Animator
 
 ## Приклад структури
 
-![Animator Transitions](https://cdn.discordapp.com/attachments/917547349864230912/1469379823594897631/image.png?ex=69877219&is=69862099&hm=4cb26b13e0847a6849c364e98d5b4b9c7efd93ab41ade7195c070f9df7fe3590&)
+![Animator Transitions](https://media.discordapp.net/attachments/917547349864230912/1469379823594897631/image.png?ex=69a51bd9&is=69a3ca59&hm=a8917cb4911a15acb50f8382cf6cfc74286552618d50fd5de63df49b3cd70edd&=&format=webp&quality=lossless&width=1026&height=504)
 
 ---
 
@@ -736,7 +736,7 @@ IsJumping
 
 ## Приклад
 
-![Animator Parameters](https://media.discordapp.net/attachments/917547349864230912/1469380129645137930/image.png?ex=69877262&is=698620e2&hm=468589ba564f26af61af5e84ebe625ccba45b63523aa5d180d2a7c73e92fac03&=&format=webp&quality=lossless)
+![Animator Parameters](https://media.discordapp.net/attachments/917547349864230912/1469380129645137930/image.png?ex=69a51c22&is=69a3caa2&hm=aa0664efb9780160f5dd76d142688be117ffac96f67b3eb8b91d8f5ffc5148e2&=&format=webp&quality=lossless&width=734&height=659)
 
 ---
 
@@ -791,7 +791,7 @@ IsJumping
 
 ## Приклад
 
-![Jump Transition Settings](https://media.discordapp.net/attachments/917547349864230912/1469380760287969311/image.png?ex=698772f9&is=69862179&hm=93ebadeffa3c2b9b729c4f3c55ce2a8998b356c7b5a87dbe8b482d338cb9bf86&=&format=webp&quality=lossless)
+![Jump Transition Settings](https://media.discordapp.net/attachments/917547349864230912/1469380760287969311/image.png?ex=69a51cb9&is=69a3cb39&hm=31dc67ea6853a5958f883d6d76350f136a4c77ef4fd43cfa45592377a4e687a0&=&format=webp&quality=lossless&width=1197&height=1093)
 
 ---
 
@@ -859,11 +859,11 @@ IsWalking = false
 
 Idle → Walk:
 
-![Idle To Walk](https://media.discordapp.net/attachments/917547349864230912/1469381204125028475/image.png?ex=69877362&is=698621e2&hm=e62cea9420f0a494697bfce1ea29495b0b0bd63b116278b767a067729e7ca49a&=&format=webp&quality=lossless)
+![Idle To Walk](https://media.discordapp.net/attachments/917547349864230912/1469381204125028475/image.png?ex=69a51d22&is=69a3cba2&hm=daadf38820e8a2690d3982d814cf94a318bc71148f4ef06197071dd09904d174&=&format=webp&quality=lossless&width=1147&height=1044)
 
 Walk → Idle:
 
-![Walk To Idle](https://media.discordapp.net/attachments/917547349864230912/1469381204611436818/image.png?ex=69877362&is=698621e2&hm=27b64cf2bff14efaadc07f86d971149aac93c620d146478cbb7ed376260c9e9f&=&format=webp&quality=lossless)
+![Walk To Idle](https://media.discordapp.net/attachments/917547349864230912/1469381204611436818/image.png?ex=69a51d22&is=69a3cba2&hm=f7f8bb2f3a170b96481e12048b85bfe911666d0ab40624c83904f8befdb4ba2a&=&format=webp&quality=lossless&width=1147&height=1051)
 
 ---
 
@@ -1006,7 +1006,7 @@ public class PlayerMovement : MonoBehaviour
 У параметрі Ground Layer потрібно вибрати шар Ground, який ви створювали раніше та призначали всім блокам платформи. Без цього перевірка приземлення працювати не буде.
 
 Якщо всі поля підключені правильно, персонаж зможе рухатися, стрибати та коректно перемикати анімації.
-![](https://media.discordapp.net/attachments/917547349864230912/1469386651309703168/image.png?ex=69877875&is=698626f5&hm=35dba639b70f192643f6d3318007d0a9e7b1e3be6373bc752e72f9364d2c1b6d&=&format=webp&quality=lossless&width=1872&height=621)
+![](https://media.discordapp.net/attachments/917547349864230912/1469386651309703168/image.png?ex=69a52235&is=69a3d0b5&hm=88da2272f4e7171cd1a7df7f4f6a373860df6bbc5a3680ebbb519c0d6fbd55e8&=&format=webp&quality=lossless&width=1334&height=443)
 
 
 # Тепер запустіть та перевірте!

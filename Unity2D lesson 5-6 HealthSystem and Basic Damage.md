@@ -95,7 +95,7 @@ Player
 
 ---
 
-![плеєр](https://media.discordapp.net/attachments/917547349864230912/1471905626304151612/image.png?ex=6990a26f&is=698f50ef&hm=8b90b91a0a3ce5c60b4bf04b71e681f81093e092d1521c1beaae93337e23af36&=&format=webp&quality=lossless&width=1594&height=856)
+![плеєр](https://media.discordapp.net/attachments/917547349864230912/1471905626304151612/image.png?ex=69a511af&is=69a3c02f&hm=1c8e9a0da7519ee6f9dff96c2df58783934dd1108ab45d72fc34b707a1c94197&=&format=webp&quality=lossless&width=1334&height=716)
 ## Чому це важливо для Health System
 
 Наші скрипти урону працюють приблизно так:
@@ -192,7 +192,7 @@ PlayerHealth
 
 ### Як це повинно виглядати
 
-![PlayerScripts Folder](https://media.discordapp.net/attachments/917547349864230912/1471907653163679905/image.png?ex=6990a453&is=698f52d3&hm=80b0d1cb3b8ae2aeadeda9006d56b1c08072a09a42320a3d32a75da0c7bd03aa&=&format=webp&quality=lossless&width=557&height=960)
+![PlayerScripts Folder](https://cdn.discordapp.com/attachments/917547349864230912/1471907653163679905/image.png?ex=69a51393&is=69a3c213&hm=c2c2de4c50a97872a349ddf7acdda6b0f64a21aad9a162efc4464dd196c65f5f)
 
 На цьому етапі у папці PlayerScripts вже повинні бути:
 
@@ -382,7 +382,7 @@ Restart Delay
 
 ---
 
-![](https://cdn.discordapp.com/attachments/917547349864230912/1471909987214168329/image.png?ex=6990a67f&is=698f54ff&hm=8979749391120de969002ea05dc07352c6d9d341eb2d6b5279583d7092078a1e&)
+![](https://media.discordapp.net/attachments/917547349864230912/1471909987214168329/image.png?ex=69a515bf&is=69a3c43f&hm=1e36bb03267fa2b52ef346822a66ad15af5d07ab134ba4a59eb88cc9df7d4843&=&format=webp&quality=lossless&width=1334&height=668)
 
 ### Як виглядає правильний результат
 
@@ -429,7 +429,7 @@ UI → Canvas
 
 ### Як це виглядає
 
-![Create Canvas](https://media.discordapp.net/attachments/917547349864230912/1471910413170905261/image.png?ex=6990a6e5&is=698f5565&hm=45d25b0e4b5d51ec5ac7de82194b3ea8abdb2ce9d20297b11e24586a579ec10e&=&format=webp&quality=lossless)
+![Create Canvas](https://media.discordapp.net/attachments/917547349864230912/1471910413170905261/image.png?ex=69a51625&is=69a3c4a5&hm=c7ca512511ce8dc053d7d946f2ffd92a0d4e034b65530da4327deaf56c4dde1f&=&format=webp&quality=lossless&width=902&height=1238)
 
 ---
 
@@ -498,7 +498,7 @@ Main Camera
 
 ### Як це повинно виглядати
 
-![Canvas Inspector](https://media.discordapp.net/attachments/917547349864230912/1471910580674625620/image.png?ex=6990a70d&is=698f558d&hm=9dcfc8c58f7cc73e771be436cd578d0d2dfd392b74f72241c3a0264916bfadf8&=&format=webp&quality=lossless&width=1780&height=856)
+![Canvas Inspector](https://media.discordapp.net/attachments/917547349864230912/1471910580674625620/image.png?ex=69a5164d&is=69a3c4cd&hm=62c908875b528e36c30b475eac3b6c627bc5874c3b88910850a68f680db7b62c&=&format=webp&quality=lossless&width=1334&height=641)
 
 ---
 
@@ -569,7 +569,7 @@ HPBAR
 
 ### Приклад
 
-![](https://media.discordapp.net/attachments/917547349864230912/1471914001708355596/image.png?ex=6990aa3c&is=698f58bc&hm=de97dea9aad51bc9fe7dbffe506917b5e8f92495ec284a8e2ee74e39a02f63a3&=&format=webp&quality=lossless)
+![](https://media.discordapp.net/attachments/917547349864230912/1471911971627733245/image.png?ex=69a51798&is=69a3c618&hm=e8624e908582774da4fa69a1e06e08470bbbb3034a01ae95bf7d32c1484cd4b1&=&format=webp&quality=lossless&width=844&height=1238)
 
 ---
 
@@ -583,7 +583,7 @@ HPBAR
 
 ### Приклад
 
-![](https://media.discordapp.net/attachments/917547349864230912/1471916277827375185/image.png?ex=6990ac5b&is=698f5adb&hm=bbcaaa7819cda9d5ce25f21a85595d19446d76d12a64359cf9273201d781acba&=&format=webp&quality=lossless)
+![](https://media.discordapp.net/attachments/917547349864230912/1471916277827375185/image.png?ex=69a51b9b&is=69a3ca1b&hm=1a9ee0ac41bc47529169cba7c1975aeb71d4ad3b64d4f92224b4d0aedee667ef&=&format=webp&quality=lossless&width=927&height=1238)
 
 ---
 
@@ -597,7 +597,7 @@ HPBAR
 
 ### Приклад
 
-![](https://media.discordapp.net/attachments/917547349864230912/1471916410610389072/image.png?ex=6990ac7b&is=698f5afb&hm=2d15477de29bbbfcfabf093566e57601b93bd026297f9312133612eedfe18a07&=&format=webp&quality=lossless&width=1624&height=856)
+![](https://media.discordapp.net/attachments/917547349864230912/1471916410610389072/image.png?ex=69a51bbb&is=69a3ca3b&hm=1e18ed8ab2e1b4eab7e901b614af45a755579dd7733ca7f57a0c829746474aad&=&format=webp&quality=lossless&width=1334&height=704)
 
 ---
 
@@ -609,7 +609,7 @@ HPBAR
 
 ### Приклад
 
-![](https://media.discordapp.net/attachments/917547349864230912/1471916465027289310/image.png?ex=6990ac88&is=698f5b08&hm=6e16ef96c0636e0881448c5133af546c3a0434b61efe0e466783b7c387c9d01d&=&format=webp&quality=lossless)
+![](https://media.discordapp.net/attachments/917547349864230912/1471916465027289310/image.png?ex=69a51bc8&is=69a3ca48&hm=422962f96d0c121b0787f552be4db5f00c134ae3028d9a125e61d99062809685&=&format=webp&quality=lossless&width=1334&height=533)
 
 ---
 
@@ -645,7 +645,7 @@ Fill Rect
 
 ### Приклад
 
-![](https://media.discordapp.net/attachments/917547349864230912/1471916616072692008/image.png?ex=6990acac&is=698f5b2c&hm=f9fe3f0c1969ea7d5646f0c5cbb8829174c17769be049fdf6531785ae10851cd&=&format=webp&quality=lossless&width=1604&height=856)
+![](https://media.discordapp.net/attachments/917547349864230912/1471916616072692008/image.png?ex=69a51bec&is=69a3ca6c&hm=d484c9f6234fcd7623dd2e0c9a68b9ed9bb086c289e1a160ffbd6c68556ae337&=&format=webp&quality=lossless&width=1334&height=713)
 
 ---
 
@@ -657,7 +657,7 @@ Fill Rect
 
 ### Приклад
 
-![](https://media.discordapp.net/attachments/917547349864230912/1471916695890169856/image.png?ex=6990acbf&is=698f5b3f&hm=f9e40ecd913b76bf7dd5f83cd367ad7da53bd061715cac37d8824a14dc1253f0&=&format=webp&quality=lossless)
+![](https://cdn.discordapp.com/attachments/917547349864230912/1471916695890169856/image.png?ex=69a51bff&is=69a3ca7f&hm=184dc23e54789d2538b26372c7538db2100dc8b0b606dcbb346d9f1ec446c92a)
 
 ---
 
@@ -672,7 +672,7 @@ Value = 1 → HP повністю перекриває Background
 
 ### Приклад фінального результату
 
-![](https://media.discordapp.net/attachments/917547349864230912/1471916871161741322/image.png?ex=6990ace8&is=698f5b68&hm=e6428d7bce3140484493403b20750ca947e7f3322640abf7c6ee95a8fc2fd715&=&format=webp&quality=lossless&width=1872&height=839)
+![](https://media.discordapp.net/attachments/917547349864230912/1471916871161741322/image.png?ex=69a51c28&is=69a3caa8&hm=8513fe390b65323554d11577bdc57a3084f20498e9cc9fdeb07521e1080a5213&=&format=webp&quality=lossless&width=1334&height=598)
 
 ---
 
@@ -703,7 +703,7 @@ UI → Legacy → Text
 
 ```
 
-![Add Legacy Text](https://media.discordapp.net/attachments/917547349864230912/1471920749336858654/image.png?ex=6990b085&is=698f5f05&hm=22af928b34439442469621773644cbf4fad3d715d15acf83aa0a805bee806a42&=&format=webp&quality=lossless)
+![Add Legacy Text](https://media.discordapp.net/attachments/917547349864230912/1471920749336858654/image.png?ex=69a51fc5&is=69a3ce45&hm=24a36bd76734d69ecd2f1bc553b6d528701b57b1d8a4e0213671f8b49e789097&=&format=webp&quality=lossless&width=1093&height=1238)
 
 ---
 
@@ -711,7 +711,7 @@ UI → Legacy → Text
 
 Перемістіть створений Text одразу справа від HPBAR.
 
-![Move Text Near HP Bar](https://media.discordapp.net/attachments/917547349864230912/1471920748582142002/image.png?ex=6990b085&is=698f5f05&hm=211032cf1054d9ba0ead4fbeb3c9982fd721593d042454e61acd6c1b92d5a821&=&format=webp&quality=lossless)
+![Move Text Near HP Bar](https://media.discordapp.net/attachments/917547349864230912/1471920748582142002/image.png?ex=69a51fc5&is=69a3ce45&hm=5d972d1e40449bf77cb2ee8815317108027fcdb17197ec31b403bcf91e778a85&=&format=webp&quality=lossless&width=1147&height=499)
 
 ---
 
@@ -719,7 +719,7 @@ UI → Legacy → Text
 
 В Inspector знайдіть поле Color та змініть його на білий.
 
-![Set Text Color White](https://media.discordapp.net/attachments/917547349864230912/1471920858154012865/image.png?ex=6990b09f&is=698f5f1f&hm=3e95798f49d124e5a4a82366c3f0158097570905060e9f33f5ae5b8d30c48695&=&format=webp&quality=lossless&width=1872&height=645)
+![Set Text Color White](https://media.discordapp.net/attachments/917547349864230912/1471920858154012865/image.png?ex=69a51fdf&is=69a3ce5f&hm=519ae05a4d7892f7a76050660610d37f6de12298d8c8247f089108db53b240ea&=&format=webp&quality=lossless&width=1334&height=459)
 
 ---
 
@@ -733,7 +733,7 @@ UI → Legacy → Text
 
 ```
 
-![Set Text To 100 Percent](https://media.discordapp.net/attachments/917547349864230912/1471921121728266371/image.png?ex=6990b0de&is=698f5f5e&hm=172c0451e57211afc536cfe621705dca92f44b479aa0db8f409b6a63bd228aae&=&format=webp&quality=lossless&width=1872&height=852)
+![Set Text To 100 Percent](https://media.discordapp.net/attachments/917547349864230912/1471921121728266371/image.png?ex=69a5201e&is=69a3ce9e&hm=8ba897f7dba2a55a144e71d2a8aa0693064ca04a44224cf13a377194c9ff39a9&=&format=webp&quality=lossless&width=1334&height=607)
 
 ---
 
@@ -835,7 +835,7 @@ Health Text
 
 ### Як це повинно виглядати
 
-![Player Health Inspector Connected](https://media.discordapp.net/attachments/917547349864230912/1471920749336858654/image.png?ex=6990b085&is=698f5f05&hm=22af928b34439442469621773644cbf4fad3d715d15acf83aa0a805bee806a42&=&format=webp&quality=lossless)
+![Player Health Inspector Connected](https://media.discordapp.net/attachments/917547349864230912/1471920989691711710/image.png?ex=69a51ffe&is=69a3ce7e&hm=d986bbaafab6fb7ee72c5597fe9397273b54ccb52f33dd905a52e30a242a7b1f&=&format=webp&quality=lossless&width=1334&height=657)
 
 ---
 
@@ -954,7 +954,7 @@ Spikes
 
 ```
 
-![Add Spikes To Scene](https://media.discordapp.net/attachments/917547349864230912/1471925134037225523/image.png?ex=6990b49b&is=698f631b&hm=6c5056cd53bb9c0cd39c354ec7ae4b9d60e876af788e9d81468daa102bf9bd13&=&format=webp&quality=lossless)
+![Add Spikes To Scene](https://media.discordapp.net/attachments/917547349864230912/1471925134037225523/image.png?ex=69a523db&is=69a3d25b&hm=0772cfca7dfe0f491228656de422316503342bd665c0c8bfe3196887eacd49fb&=&format=webp&quality=lossless&width=1334&height=891)
 
 ---
 
@@ -969,7 +969,7 @@ BoxCollider2D
 
 ```
 
-![Add BoxCollider2D](https://media.discordapp.net/attachments/917547349864230912/1471926159678767119/image.png?ex=6990b58f&is=698f640f&hm=2e8678d489702840799577b0fe74a39643c378993705474f5de449bf064f5850&=&format=webp&quality=lossless&width=1582&height=856)
+![Add BoxCollider2D](https://media.discordapp.net/attachments/917547349864230912/1471926159678767119/image.png?ex=69a524cf&is=69a3d34f&hm=bb769d619d6d3b71e415980ddd8c7ab6b525e45c2060b124801c26311df99b99&=&format=webp&quality=lossless&width=1334&height=722)
 
 ---
 
@@ -983,7 +983,7 @@ Is Trigger
 
 ```
 
-![Enable Is Trigger](https://media.discordapp.net/attachments/917547349864230912/1471926206982258915/image.png?ex=6990b59a&is=698f641a&hm=ca78946d5dbfaeff7369d9a1b02d19e9b7376363f8c7ce10a1e0b2c9748305b9&=&format=webp&quality=lossless)
+![Enable Is Trigger](https://media.discordapp.net/attachments/917547349864230912/1471926206982258915/image.png?ex=69a524da&is=69a3d35a&hm=7a407e360b5b2cb521f576afa675ad739d7d00c5f5fb97db70a0837140d5d6d3&=&format=webp&quality=lossless&width=1213&height=576)
 
 ---
 
@@ -1017,7 +1017,7 @@ Damage
 
 ### Приклад
 
-![Spike Damage Setting](https://media.discordapp.net/attachments/917547349864230912/1471925906259054794/image.png?ex=6990b553&is=698f63d3&hm=4c1e2696285363fe02f0c2ee2677cf4d4cb7ecfc9846d7ff40f7df5c8946b255&=&format=webp&quality=lossless&width=1620&height=856)
+![Spike Damage Setting](https://media.discordapp.net/attachments/917547349864230912/1471925906259054794/image.png?ex=69a52493&is=69a3d313&hm=6c1540d486836ab0c0d726d4719c96d2923f87015d6f754238ff98efc0d7718f&=&format=webp&quality=lossless&width=1334&height=704)
 
 ---
 
@@ -1066,7 +1066,7 @@ Assets → Prefab
 
 ```
 
-![Create Prefab Folder](https://media.discordapp.net/attachments/917547349864230912/1471928027041632316/image.png?ex=6990b74c&is=698f65cc&hm=4f3569a4c28fa930f3b4fdb06bda20ce8f2f29171bf4660e1be0d6d0eb79a290&=&format=webp&quality=lossless)
+![Create Prefab Folder](https://media.discordapp.net/attachments/917547349864230912/1471928027041632316/image.png?ex=69a5268c&is=69a3d50c&hm=6c8493b8a70aab746d60bbc8393e9d8c69a7fc967d1a7760bfe56df2d1c96e83&=&format=webp&quality=lossless&width=776&height=486)
 
 ---
 
@@ -1092,7 +1092,7 @@ Assets → Prefab
 
 ### Приклад
 
-![Create Prefab From Spikes](https://media.discordapp.net/attachments/917547349864230912/1471928027389628560/image.png?ex=6990b74c&is=698f65cc&hm=30cc27c4b5837c1947ce39a35930ccbf8ca875e9eb26a195248d36d7866abd67&=&format=webp&quality=lossless&width=409&height=856)
+![Create Prefab From Spikes](https://media.discordapp.net/attachments/917547349864230912/1471928027389628560/image.png?ex=69a5268c&is=69a3d50c&hm=faa59046cd86983f9f42122a1a72470882a056fc092a09a94d3da4abdb6f8d65&=&format=webp&quality=lossless&width=592&height=1238)
 
 ---
 
@@ -1124,7 +1124,7 @@ Destroy After Hit
 
 ### Приклад
 
-![Enable Destroy After Hit](https://media.discordapp.net/attachments/917547349864230912/1471928027767242938/image.png?ex=6990b74c&is=698f65cc&hm=d1a2840d65ce1472364c9281a2f6308f4e7f0a5afe65b0bf63260c4481b4d75c&=&format=webp&quality=lossless&width=1624&height=856)
+![Enable Destroy After Hit](https://media.discordapp.net/attachments/917547349864230912/1471928027767242938/image.png?ex=69a5268c&is=69a3d50c&hm=b119770c47621753a890a7bc2c6196ec8a403a207eec6cf4bcaf27b33a733b39&=&format=webp&quality=lossless&width=1147&height=605)
 
 ---
 Ааа, все, тепер зрозумів 🙂
@@ -1151,7 +1151,7 @@ Assets → Scripts → StaticEnemy
 
 FireballSpawner
 
-![Create FireballSpawner Script](https://cdn.discordapp.com/attachments/917547349864230912/1471929075093344276/image.png?ex=6990b846&is=698f66c6&hm=13a45f6696c03ac096450b37f66b94ec889873135fda1ab0c52f51a961e86e21&)
+![Create FireballSpawner Script](https://media.discordapp.net/attachments/917547349864230912/1471929075093344276/image.png?ex=69a52786&is=69a3d606&hm=e98d38db62daafb5de08210b15e4bb7894f6b3e82280b15c953f9349fcda1222&=&format=webp&quality=lossless&width=1334&height=720)
 
 ---
 
@@ -1206,7 +1206,7 @@ public class FireballSpawner : MonoBehaviour // Скрипт спавнера р
 
 Додайте на сцену новий об’єкт, який буде спавнером.
 
-![Add Spawner Object](https://media.discordapp.net/attachments/917547349864230912/1471931523635744798/image.png?ex=6990ba8e&is=698f690e&hm=a99150207ec9ca71c592667b6087f76f6bc0027ab51c344d70f0d2a6969942a8&=&format=webp&quality=lossless)
+![Add Spawner Object](https://media.discordapp.net/attachments/917547349864230912/1471931682088288439/image.png?ex=69a529f4&is=69a3d874&hm=cb2d327066d45ba9d0d79df36f771d6415519dfca57f1b2b3be23b7a8532bed3&=&format=webp&quality=lossless&width=1334&height=709)
 
 Назву можна зробити такою:
 
@@ -1236,7 +1236,7 @@ FirePoint
 
 ```
 
-![Create FirePoint](https://media.discordapp.net/attachments/917547349864230912/1471931943435239425/image.png?ex=6990baf2&is=698f6972&hm=68b49e93e52788d179467b4355db4a14bcb13f83efd42849c8868d0dc32f4e7f&=&format=webp&quality=lossless&width=1588&height=856)
+![Create FirePoint](https://media.discordapp.net/attachments/917547349864230912/1471931682088288439/image.png?ex=69a529f4&is=69a3d874&hm=cb2d327066d45ba9d0d79df36f771d6415519dfca57f1b2b3be23b7a8532bed3&=&format=webp&quality=lossless&width=1334&height=709)
 
 Дайте йому позначку біля Tag, щоб його було легко знаходити в Hierarchy.
 
@@ -1280,7 +1280,7 @@ FireballSpawner.cs
 
 або натисніть Add Component і додайте його через пошук.
 
-![Add FireballSpawner Script](https://media.discordapp.net/attachments/917547349864230912/1471932089992613968/image.png?ex=6990bb15&is=698f6995&hm=5fb3c9a18278c86817fbc640f5c29df29be69df41911ad7fcd92f63ca45a510a&=&format=webp&quality=lossless&width=1593&height=856)
+![Add FireballSpawner Script](https://media.discordapp.net/attachments/917547349864230912/1471932089992613968/image.png?ex=69a52a55&is=69a3d8d5&hm=e225a856d8233d1ff9c3ed6fcef62457ecbdb0938c10642b2d5ab17267cf21e9&=&format=webp&quality=lossless&width=1334&height=716)
 
 ---
 
