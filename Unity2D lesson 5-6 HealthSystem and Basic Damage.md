@@ -95,7 +95,7 @@ Player
 
 ---
 
-![плеєр](https://media.discordapp.net/attachments/917547349864230912/1471905626304151612/image.png?ex=69a511af&is=69a3c02f&hm=1c8e9a0da7519ee6f9dff96c2df58783934dd1108ab45d72fc34b707a1c94197&=&format=webp&quality=lossless&width=1334&height=716)
+![плеєр](images/lesson-5-6/player-tag.png)
 ## Чому це важливо для Health System
 
 Наші скрипти урону працюють приблизно так:
@@ -192,7 +192,7 @@ PlayerHealth
 
 ### Як це повинно виглядати
 
-![PlayerScripts Folder](https://cdn.discordapp.com/attachments/917547349864230912/1471907653163679905/image.png?ex=69a51393&is=69a3c213&hm=c2c2de4c50a97872a349ddf7acdda6b0f64a21aad9a162efc4464dd196c65f5f)
+![PlayerScripts Folder](images/lesson-5-6/player-scripts-folder.png)
 
 На цьому етапі у папці PlayerScripts вже повинні бути:
 
@@ -382,7 +382,7 @@ Restart Delay
 
 ---
 
-![](https://media.discordapp.net/attachments/917547349864230912/1471909987214168329/image.png?ex=69a515bf&is=69a3c43f&hm=1e36bb03267fa2b52ef346822a66ad15af5d07ab134ba4a59eb88cc9df7d4843&=&format=webp&quality=lossless&width=1334&height=668)
+![player health component](images/lesson-5-6/player-health-component.png)
 
 ### Як виглядає правильний результат
 
@@ -429,7 +429,7 @@ UI → Canvas
 
 ### Як це виглядає
 
-![Create Canvas](https://media.discordapp.net/attachments/917547349864230912/1471910413170905261/image.png?ex=69a51625&is=69a3c4a5&hm=c7ca512511ce8dc053d7d946f2ffd92a0d4e034b65530da4327deaf56c4dde1f&=&format=webp&quality=lossless&width=902&height=1238)
+![Create Canvas](images/lesson-5-6/create-canvas.png)
 
 ---
 
@@ -498,7 +498,7 @@ Main Camera
 
 ### Як це повинно виглядати
 
-![Canvas Inspector](https://media.discordapp.net/attachments/917547349864230912/1471910580674625620/image.png?ex=69a5164d&is=69a3c4cd&hm=62c908875b528e36c30b475eac3b6c627bc5874c3b88910850a68f680db7b62c&=&format=webp&quality=lossless&width=1334&height=641)
+![Canvas Inspector](images/lesson-5-6/canvas-inspector.png)
 
 ---
 
@@ -540,6 +540,12 @@ UI може не відображатися
 
 ```
 
+![Create Slider in Canvas](images/lesson-5-6/create-slider.png)
+
+В Anchor Presets виберіть прив’язку до верхнього лівого кута.
+
+![Slider anchor preset](images/lesson-5-6/slider-anchor.png)
+
 ---
 
 ### Крок 2. Очистити структуру Slider
@@ -569,7 +575,7 @@ HPBAR
 
 ### Приклад
 
-![](https://media.discordapp.net/attachments/917547349864230912/1471911971627733245/image.png?ex=69a51798&is=69a3c618&hm=e8624e908582774da4fa69a1e06e08470bbbb3034a01ae95bf7d32c1484cd4b1&=&format=webp&quality=lossless&width=844&height=1238)
+![hpbar hierarchy](images/lesson-5-6/hpbar-hierarchy.png)
 
 ---
 
@@ -583,7 +589,11 @@ HPBAR
 
 ### Приклад
 
-![](https://media.discordapp.net/attachments/917547349864230912/1471916277827375185/image.png?ex=69a51b9b&is=69a3ca1b&hm=1a9ee0ac41bc47529169cba7c1975aeb71d4ad3b64d4f92224b4d0aedee667ef&=&format=webp&quality=lossless&width=927&height=1238)
+![create hp image](images/lesson-5-6/create-hp-image.png)
+
+Створіть під **HPBAR** порожній дочірній об’єкт **Fill Area**, перемістіть Image всередину та перейменуйте його на **Fill**:
+
+![Slider Fill Area](images/lesson-5-6/slider-fill-area.png)
 
 ---
 
@@ -597,7 +607,11 @@ HPBAR
 
 ### Приклад
 
-![](https://media.discordapp.net/attachments/917547349864230912/1471916410610389072/image.png?ex=69a51bbb&is=69a3ca3b&hm=1e18ed8ab2e1b4eab7e901b614af45a755579dd7733ca7f57a0c829746474aad&=&format=webp&quality=lossless&width=1334&height=704)
+![hp image red](images/lesson-5-6/hp-image-red.png)
+
+Для дочірнього Fill встановіть червоний Source Image:
+
+![HP Fill Image](images/lesson-5-6/hp-fill-image.png)
 
 ---
 
@@ -609,7 +623,7 @@ HPBAR
 
 ### Приклад
 
-![](https://media.discordapp.net/attachments/917547349864230912/1471916465027289310/image.png?ex=69a51bc8&is=69a3ca48&hm=422962f96d0c121b0787f552be4db5f00c134ae3028d9a125e61d99062809685&=&format=webp&quality=lossless&width=1334&height=533)
+![hp image size](images/lesson-5-6/hp-image-size.png)
 
 ---
 
@@ -626,6 +640,8 @@ Transition → Color Tint
 Value → 1
 
 ```
+
+![Slider Value set to 1](images/lesson-5-6/slider-value-one.png)
 
 ---
 
@@ -645,7 +661,7 @@ Fill Rect
 
 ### Приклад
 
-![](https://media.discordapp.net/attachments/917547349864230912/1471916616072692008/image.png?ex=69a51bec&is=69a3ca6c&hm=d484c9f6234fcd7623dd2e0c9a68b9ed9bb086c289e1a160ffbd6c68556ae337&=&format=webp&quality=lossless&width=1334&height=713)
+![hpbar fill rect](images/lesson-5-6/hpbar-fill-rect.png)
 
 ---
 
@@ -657,7 +673,7 @@ Fill Rect
 
 ### Приклад
 
-![](https://cdn.discordapp.com/attachments/917547349864230912/1471916695890169856/image.png?ex=69a51bff&is=69a3ca7f&hm=184dc23e54789d2538b26372c7538db2100dc8b0b606dcbb346d9f1ec446c92a)
+![hp fill size](images/lesson-5-6/hp-fill-size.png)
 
 ---
 
@@ -672,7 +688,7 @@ Value = 1 → HP повністю перекриває Background
 
 ### Приклад фінального результату
 
-![](https://media.discordapp.net/attachments/917547349864230912/1471916871161741322/image.png?ex=69a51c28&is=69a3caa8&hm=8513fe390b65323554d11577bdc57a3084f20498e9cc9fdeb07521e1080a5213&=&format=webp&quality=lossless&width=1334&height=598)
+![hpbar partial value](images/lesson-5-6/hpbar-partial-value.png)
 
 ---
 
@@ -703,7 +719,7 @@ UI → Legacy → Text
 
 ```
 
-![Add Legacy Text](https://media.discordapp.net/attachments/917547349864230912/1471920749336858654/image.png?ex=69a51fc5&is=69a3ce45&hm=24a36bd76734d69ecd2f1bc553b6d528701b57b1d8a4e0213671f8b49e789097&=&format=webp&quality=lossless&width=1093&height=1238)
+![Add Legacy Text](images/lesson-5-6/create-legacy-text.png)
 
 ---
 
@@ -711,7 +727,7 @@ UI → Legacy → Text
 
 Перемістіть створений Text одразу справа від HPBAR.
 
-![Move Text Near HP Bar](https://media.discordapp.net/attachments/917547349864230912/1471920748582142002/image.png?ex=69a51fc5&is=69a3ce45&hm=5d972d1e40449bf77cb2ee8815317108027fcdb17197ec31b403bcf91e778a85&=&format=webp&quality=lossless&width=1147&height=499)
+![Move Text Near HP Bar](images/lesson-5-6/move-hp-text.png)
 
 ---
 
@@ -719,7 +735,7 @@ UI → Legacy → Text
 
 В Inspector знайдіть поле Color та змініть його на білий.
 
-![Set Text Color White](https://media.discordapp.net/attachments/917547349864230912/1471920858154012865/image.png?ex=69a51fdf&is=69a3ce5f&hm=519ae05a4d7892f7a76050660610d37f6de12298d8c8247f089108db53b240ea&=&format=webp&quality=lossless&width=1334&height=459)
+![Set Text Color White](images/lesson-5-6/hp-text-color.png)
 
 ---
 
@@ -733,7 +749,7 @@ UI → Legacy → Text
 
 ```
 
-![Set Text To 100 Percent](https://media.discordapp.net/attachments/917547349864230912/1471921121728266371/image.png?ex=69a5201e&is=69a3ce9e&hm=8ba897f7dba2a55a144e71d2a8aa0693064ca04a44224cf13a377194c9ff39a9&=&format=webp&quality=lossless&width=1334&height=607)
+![Set Text To 100 Percent](images/lesson-5-6/hp-text-100-percent.png)
 
 ---
 
@@ -760,7 +776,7 @@ Player
 
 ```
 
-![Select Player In Hierarchy](https://media.discordapp.net/attachments/917547349864230912/1471920989691711710/image.png?ex=6990b0be&is=698f5f3e&hm=e57ae842de91edc64e37b2ff306c441d06781883c08d2d193ebef3406dbfd0a2&=&format=webp&quality=lossless&width=1740&height=856)
+![Select Player In Hierarchy](images/lesson-5-6/player-tag.png)
 
 ---
 
@@ -835,7 +851,7 @@ Health Text
 
 ### Як це повинно виглядати
 
-![Player Health Inspector Connected](https://media.discordapp.net/attachments/917547349864230912/1471920989691711710/image.png?ex=69a51ffe&is=69a3ce7e&hm=d986bbaafab6fb7ee72c5597fe9397273b54ccb52f33dd905a52e30a242a7b1f&=&format=webp&quality=lossless&width=1334&height=657)
+![Player Health Inspector Connected](images/lesson-5-6/player-health-ui-references.png)
 
 ---
 
@@ -871,7 +887,7 @@ StaticEnemy
 
 ```
 
-![Create StaticEnemy Folder](https://media.discordapp.net/attachments/917547349864230912/1471921280860033129/image.png?ex=6990b104&is=698f5f84&hm=2604220491ca09709b91be2e73551d64bb915a88fb0bd18b28a6efc7d99d9101&=&format=webp&quality=lossless)
+![Create StaticEnemy Folder](images/lesson-5-6/static-enemy-folder.png)
 
 ---
 
@@ -893,7 +909,7 @@ Spike
 
 ```
 
-![Create Spike Script](https://media.discordapp.net/attachments/917547349864230912/1471921347889205361/image.png?ex=6990b114&is=698f5f94&hm=25ef0de2610784db0cb15adf094aa8f18c747e34b87cc487f650e8d5c9b4b2ac&=&format=webp&quality=lossless)
+![Create Spike Script](images/lesson-5-6/spike-script.png)
 
 ---
 
@@ -954,7 +970,7 @@ Spikes
 
 ```
 
-![Add Spikes To Scene](https://media.discordapp.net/attachments/917547349864230912/1471925134037225523/image.png?ex=69a523db&is=69a3d25b&hm=0772cfca7dfe0f491228656de422316503342bd665c0c8bfe3196887eacd49fb&=&format=webp&quality=lossless&width=1334&height=891)
+![Add Spikes To Scene](images/lesson-5-6/spikes-in-scene.png)
 
 ---
 
@@ -969,7 +985,7 @@ BoxCollider2D
 
 ```
 
-![Add BoxCollider2D](https://media.discordapp.net/attachments/917547349864230912/1471926159678767119/image.png?ex=69a524cf&is=69a3d34f&hm=bb769d619d6d3b71e415980ddd8c7ab6b525e45c2060b124801c26311df99b99&=&format=webp&quality=lossless&width=1334&height=722)
+![Add BoxCollider2D](images/lesson-5-6/spikes-box-collider.png)
 
 ---
 
@@ -983,7 +999,7 @@ Is Trigger
 
 ```
 
-![Enable Is Trigger](https://media.discordapp.net/attachments/917547349864230912/1471926206982258915/image.png?ex=69a524da&is=69a3d35a&hm=7a407e360b5b2cb521f576afa675ad739d7d00c5f5fb97db70a0837140d5d6d3&=&format=webp&quality=lossless&width=1213&height=576)
+![Enable Is Trigger](images/lesson-5-6/spikes-is-trigger.png)
 
 ---
 
@@ -1017,7 +1033,7 @@ Damage
 
 ### Приклад
 
-![Spike Damage Setting](https://media.discordapp.net/attachments/917547349864230912/1471925906259054794/image.png?ex=69a52493&is=69a3d313&hm=6c1540d486836ab0c0d726d4719c96d2923f87015d6f754238ff98efc0d7718f&=&format=webp&quality=lossless&width=1334&height=704)
+![Spike Damage Setting](images/lesson-5-6/spike-damage-settings.png)
 
 ---
 
@@ -1066,7 +1082,7 @@ Assets → Prefab
 
 ```
 
-![Create Prefab Folder](https://media.discordapp.net/attachments/917547349864230912/1471928027041632316/image.png?ex=69a5268c&is=69a3d50c&hm=6c8493b8a70aab746d60bbc8393e9d8c69a7fc967d1a7760bfe56df2d1c96e83&=&format=webp&quality=lossless&width=776&height=486)
+![Create Prefab Folder](images/lesson-5-6/prefab-folder.png)
 
 ---
 
@@ -1092,7 +1108,7 @@ Assets → Prefab
 
 ### Приклад
 
-![Create Prefab From Spikes](https://media.discordapp.net/attachments/917547349864230912/1471928027389628560/image.png?ex=69a5268c&is=69a3d50c&hm=faa59046cd86983f9f42122a1a72470882a056fc092a09a94d3da4abdb6f8d65&=&format=webp&quality=lossless&width=592&height=1238)
+![Create Prefab From Spikes](images/lesson-5-6/spikes-prefab.png)
 
 ---
 
@@ -1124,7 +1140,7 @@ Destroy After Hit
 
 ### Приклад
 
-![Enable Destroy After Hit](https://media.discordapp.net/attachments/917547349864230912/1471928027767242938/image.png?ex=69a5268c&is=69a3d50c&hm=b119770c47621753a890a7bc2c6196ec8a403a207eec6cf4bcaf27b33a733b39&=&format=webp&quality=lossless&width=1147&height=605)
+![Enable Destroy After Hit](images/lesson-5-6/spike-damage-settings.png)
 
 ---
 Ааа, все, тепер зрозумів 🙂
@@ -1151,7 +1167,7 @@ Assets → Scripts → StaticEnemy
 
 FireballSpawner
 
-![Create FireballSpawner Script](https://media.discordapp.net/attachments/917547349864230912/1471929075093344276/image.png?ex=69a52786&is=69a3d606&hm=e98d38db62daafb5de08210b15e4bb7894f6b3e82280b15c953f9349fcda1222&=&format=webp&quality=lossless&width=1334&height=720)
+![Create FireballSpawner Script](images/lesson-5-6/fireball-spawner-script.png)
 
 ---
 
@@ -1206,7 +1222,7 @@ public class FireballSpawner : MonoBehaviour // Скрипт спавнера р
 
 Додайте на сцену новий об’єкт, який буде спавнером.
 
-![Add Spawner Object](https://media.discordapp.net/attachments/917547349864230912/1471931682088288439/image.png?ex=69a529f4&is=69a3d874&hm=cb2d327066d45ba9d0d79df36f771d6415519dfca57f1b2b3be23b7a8532bed3&=&format=webp&quality=lossless&width=1334&height=709)
+![Add Spawner Object](images/lesson-5-6/fireball-spawner-in-scene.png)
 
 Назву можна зробити такою:
 
@@ -1236,7 +1252,7 @@ FirePoint
 
 ```
 
-![Create FirePoint](https://media.discordapp.net/attachments/917547349864230912/1471931682088288439/image.png?ex=69a529f4&is=69a3d874&hm=cb2d327066d45ba9d0d79df36f771d6415519dfca57f1b2b3be23b7a8532bed3&=&format=webp&quality=lossless&width=1334&height=709)
+![Create FirePoint](images/lesson-5-6/fire-point.png)
 
 Дайте йому позначку біля Tag, щоб його було легко знаходити в Hierarchy.
 
@@ -1256,7 +1272,7 @@ FireballSpawner
 
 ```
 
-![FirePoint Position](https://media.discordapp.net/attachments/917547349864230912/1471931682088288439/image.png?ex=6990bab4&is=698f6934&hm=969ab06687840f66cc6aa349d0eebb67159e62277a26744b41817ba7c17bf1f3&=&format=webp&quality=lossless&width=1609&height=856)
+![FirePoint Position](images/lesson-5-6/fire-point.png)
 
 ---
 
@@ -1280,7 +1296,7 @@ FireballSpawner.cs
 
 або натисніть Add Component і додайте його через пошук.
 
-![Add FireballSpawner Script](https://media.discordapp.net/attachments/917547349864230912/1471932089992613968/image.png?ex=69a52a55&is=69a3d8d5&hm=e225a856d8233d1ff9c3ed6fcef62457ecbdb0938c10642b2d5ab17267cf21e9&=&format=webp&quality=lossless&width=1334&height=716)
+![Add FireballSpawner Script](images/lesson-5-6/fireball-spawner-component.png)
 
 ---
 
@@ -1299,6 +1315,8 @@ Spawn Interval
 
 Fireball Speed  
 як швидко він летить
+
+![Fireball Spawner references](images/lesson-5-6/fireball-spawner-references.png)
 
 ---
 

@@ -37,11 +37,11 @@ Boss
 
 Виберіть об’єкт Player у Hierarchy, потім відкрийте вікно Animation і натисніть на випадаючий список кліпів. Оберіть Create New Clip, як показано на прикладі.
 
-![Create New Clip](https://media.discordapp.net/attachments/917547349864230912/1476651176295661793/image.png?ex=69a1e613&is=69a09493&hm=2210b7f981783111384199be0fc62909a087ca39ac44c53b066272afd1402dd0&=&format=webp&quality=lossless)
+![Create New Clip](images/lesson-7-8/create-attack-clip.png)
 
 Далі збережіть кліп з назвою Attack у папку Animations вашого персонажа. На прикладі видно, що в пакеті вже є готові кліпи Attack1, Attack2, Attack3. Якщо у вас є готовий Attack, можна використати його, але для навчання ми створюємо свій окремий кліп Attack, щоб потім легко додати Animation Event.
 
-![Save Attack Clip](https://media.discordapp.net/attachments/917547349864230912/1476651317047984279/image.png?ex=69a1e634&is=69a094b4&hm=c781aceed237f514267bf9694538a1260c13eda47493c1a2be9e01947a73cac2&=&format=webp&quality=lossless)
+![Save Attack Clip](images/lesson-7-8/save-attack-clip.png)
 
 ---
 
@@ -53,7 +53,7 @@ Boss
 
 Це саме той тригер, який ми вже використали в коді PlayerAttack.
 
-![Add IsAttack Trigger](https://media.discordapp.net/attachments/917547349864230912/1476651841558282344/image.png?ex=69a1e6b1&is=69a09531&hm=86fdeb511f796fcfbe63104ccf79d0dee3e7518ca3a29d9c339a25d28045fd07&=&format=webp&quality=lossless)
+![Add IsAttack Trigger](images/lesson-7-8/attack-trigger.png)
 
 ---
 
@@ -65,7 +65,7 @@ Boss
 
 На цьому кроці ми налаштовуємо всі переходи, які ведуть у стан атаки `Attack1`, щоб атака запускалась миттєво по тригеру `IsAttack`, без очікування завершення поточної анімації.
 
-![Attack transitions](https://media.discordapp.net/attachments/917547349864230912/1476653865268150524/image.png?ex=69a1e894&is=69a09714&hm=4deb5d8ae20602f3754a73bedece9a09fdb72b893b5999d43e46dd7f2c381d7c&=&format=webp&quality=lossless)
+![Attack transitions](images/lesson-7-8/attack-transitions.png)
 
 В Animator знайдіть усі стрілки, які входять у `Attack1`. У тебе на скріні це переходи `Idle → Attack1`, `Walk → Attack1`, `Jump → Attack1`. Клікни по кожному переходу окремо, щоб справа відкрився Inspector саме цього transition.
 
@@ -80,19 +80,23 @@ Boss
 
 Тепер налаштовуємо повернення з `Attack1` у `Idle`.
 
-![Attack to Idle](https://media.discordapp.net/attachments/917547349864230912/1476660826965540986/image.png?ex=69a1ef10&is=69a09d90&hm=be60d4d20f875639cb6224684fcaf10f644a1b843797010469405f861d1a9b73&=&format=webp&quality=lossless)
+Спочатку у переході прапорець може бути вимкнений:
+
+![Attack to Idle before setting](images/lesson-7-8/attack-to-idle-before-setting.png)
 
 У вікні Animator виберіть стрілку `Attack1 → Idle`. Саме вона відповідає за завершення атаки.
 
 У Inspector:
 
-Увімкніть `Has Exit Time`
+Увімкніть `Has Exit Time`:
+
+![Attack to Idle](images/lesson-7-8/attack-to-idle.png)
 
 умови в `Conditions` залиште порожніми
 
 Чому саме так.
 
-Атака це коротка анімація, яка має відпрацювати повністю. Ми не використовуємо додатковий Bool для повернення, тому перехід назад повинен відбутися автоматично після завершення кліпу. Вимкнений `Has Exit Time` разом із відсутністю умов означає, що перехід відбудеться одразу після завершення Attack.
+Атака це коротка анімація, яка має відпрацювати повністю. Ми не використовуємо додатковий Bool для повернення, тому перехід назад повинен відбутися автоматично після завершення кліпу. Увімкнений `Has Exit Time` і порожній список умов повернуть персонажа в Idle після завершення Attack.
 
 Після цього логіка така:
 
@@ -101,7 +105,7 @@ Attack1 → Idle автоматично після завершення анім
 
 ## Частина 5. Скрипт PlayerAttack, EnemyHealth — детальний розбір
 
-![](https://media.discordapp.net/attachments/917547349864230912/1476656559734919353/image.png?ex=69a1eb16&is=69a09996&hm=6e904a46a89d8766c1003c23d620ffb94841b417cd4fdf52898bed2dc38e9f5b&=&format=webp&quality=lossless)
+![enemy health script](images/lesson-7-8/enemy-health-script.png)
 
 ```
 using UnityEngine;
@@ -160,7 +164,7 @@ HP зменшується
 
 ### PlayerAttack.cs
 
-![](https://media.discordapp.net/attachments/917547349864230912/1476655418234114148/image.png?ex=69a1ea06&is=69a09886&hm=3ee55441b6760ea63e053f26ec534136665f6b8dffdc8cb12de6ddf93c383922&=&format=webp&quality=lossless)
+![player attack script](images/lesson-7-8/player-attack-script.png)
 ```csharp
 using UnityEngine;
 
@@ -277,37 +281,37 @@ public class PlayerAttack : MonoBehaviour
 
 ---
 
-## Додавання нового Tag для ворога
+## Додавання нового Layer для ворога
 
-Щоб мати можливість визначати ворогів у коді або логіці гри, створимо окремий Tag з назвою `Enemy`.
+Щоб мати можливість визначати ворогів у коді або логіці гри, створимо окремий Layer з назвою `Enemy`.
 
 ---
 
-### Крок 1. Відкрити список Tag
+### Крок 1. Відкрити список Layer
 
 Виділіть будь-який об’єкт у сцені.
-У верхній частині Inspector відкрийте список **Tag** та натисніть:
+У верхній частині Inspector відкрийте список **Layer** та натисніть:
 
-Add Tag…
+Add Layer...
 
-![Open Tag List](https://cdn.discordapp.com/attachments/917547349864230912/1476657210393231370/image.png?ex=69a1ebb1&is=69a09a31&hm=03de044d30b0b99e63fdb864618ea4525f890bd7a63602b17b246262bd1c0463&)
+![Open Layer List](images/lesson-7-8/open-layer-list.png)
 
 ---
 
-### Крок 2. Створити новий Tag
+### Крок 2. Створити новий Layer
 
-У вікні **Tags & Layers** натисніть додавання нового Tag та введіть назву:
+У вікні **Tags & Layers** введіть назву у вільне поле **User Layer**:
 
 Enemy
 
-![Create Enemy Tag](https://media.discordapp.net/attachments/917547349864230912/1476657210917523668/image.png?ex=69a1ebb2&is=69a09a32&hm=7ea4bda3e169a1c2ad325163c4813d7b1ab3074ab118f29838e9ffbedc16c72c&=&format=webp&quality=lossless)
+![Create Enemy Layer](images/lesson-7-8/create-enemy-layer.png)
 
 ---
 ## Підключення Enemy Layer та PlayerAttack в Inspector
 
-Після створення Tag і Layer потрібно правильно підключити все в Inspector, щоб атака реально працювала.
+Після створення Layer потрібно правильно підключити все в Inspector, щоб атака реально працювала.
 
-![Inspector Setup](https://media.discordapp.net/attachments/917547349864230912/1476658024545259550/image.png?ex=69a1ec74&is=69a09af4&hm=efac301687830298d43369ea8242911e151bca361179fe9f71679bce12e0ceb6&=&format=webp&quality=lossless)
+![Inspector Setup](images/lesson-7-8/player-attack-inspector.png)
 
 ---
 
@@ -385,7 +389,7 @@ Attack Cooldown виставлений
 
 Прокрутіть таймлайн і знайдіть момент, де меч або рука знаходяться в точці максимального удару. Саме на цьому кадрі має спрацювати урон.
 
-![Attack Frame](https://media.discordapp.net/attachments/917547349864230912/1476659054276514044/image.png?ex=69a1ed69&is=69a09be9&hm=cead55047a2c48bc5bf48ce946f97341ca50642e1a2ac53cb38de8bf75631377&=&format=webp&quality=lossless&width=1081&height=872)
+![Attack Frame](images/lesson-7-8/attack-animation-event.png)
 
 ---
 
@@ -395,7 +399,7 @@ Attack Cooldown виставлений
 
 З’явиться маркер події.
 
-![Add Animation Event](https://media.discordapp.net/attachments/917547349864230912/1476659054704066560/image.png?ex=69a1ed69&is=69a09be9&hm=d6d9927c671f2801c1d12d369ef50fde1d1256fe5b3edff7c76ab409c6a927f6&=&format=webp&quality=lossless&width=1274&height=872)
+![Add Animation Event](images/lesson-7-8/attack-animation-event.png)
 
 ---
 
@@ -424,7 +428,7 @@ PlayerAttack → Methods → AnimationEvent_AttackHit()
 
 # Ворог.
 
-![](https://media.discordapp.net/attachments/917547349864230912/1476661827847979227/image.png?ex=69a1effe&is=69a09e7e&hm=ea42c092de0ef12cdc57a5246f7b9e791eddce5a32a19ca26739787b92618879&=&format=webp&quality=lossless)
+![enemy ai script](images/lesson-7-8/enemy-ai-script.png)
 ---
 
 ### EnemyAI.cs з коментарями
@@ -582,7 +586,7 @@ public class EnemyAI : MonoBehaviour
 HeavyBandit_1
 ```
 
-![Enemy In Hierarchy](https://media.discordapp.net/attachments/917547349864230912/1476665063715897527/image.png?ex=69a1f302&is=69a0a182&hm=6577137b0e4b80aa801abcbaeeef7ef8b2d5f960dd6f27dd3b942de219f15cbe&=&format=webp&quality=lossless&width=550&height=267)
+![Enemy In Hierarchy](images/lesson-7-8/enemy-in-scene.png)
 
 ---
 
@@ -657,7 +661,7 @@ Max Health
 
 Як на прикладі:
 
-![Enemy Inspector Setup](https://media.discordapp.net/attachments/917547349864230912/1476665686939144292/image.png?ex=69a1f396&is=69a0a216&hm=e42179d6f4e9d664c88a040582001f63ac7d87d6a5ba5cefeb40623dbeb48fba&=&format=webp&quality=lossless&width=1888&height=847)
+![Enemy Inspector Setup](images/lesson-7-8/enemy-inspector.png)
 
 ---
 
