@@ -32,7 +32,7 @@ https://assetstore.unity.com/
 
 Приклад:
 
-![AssetStore 2D Environments](https://media.discordapp.net/attachments/917547349864230912/1469365441221627980/image.png?ex=69a50e74&is=69a3bcf4&hm=4c44899a0c76c665dee2f730d1ce292f564bdab2a86f36648dc087b6002dfef5&=&format=webp&quality=lossless&width=1334&height=358)
+![AssetStore 2D Environments](images/lesson-3-4/asset-store-environments.png)
 
 ---
 
@@ -46,9 +46,9 @@ Pricing → Free Assets
 
 ```
 
-Приклад:
+Приклад безкоштовного ассету:
 
-![Free Assets Filter](https://media.discordapp.net/attachments/917547349864230912/1469365583240761627/image.png?ex=69a50e96&is=69a3bd16&hm=19d7af6bf3f4435823190bf3ea7e8aa4c031b094cc781f8585fabb7991dd46b9&=&format=webp&quality=lossless&width=1334&height=643)
+![Example of a free asset](images/lesson-3-4/free-platform-game-assets.png)
 
 ---
 
@@ -79,7 +79,7 @@ Pricing → Free Assets
 
 Приклад:
 
-![AssetStore 2D Characters](https://media.discordapp.net/attachments/917547349864230912/1469365862757699665/image.png?ex=69a50ed9&is=69a3bd59&hm=da3988f3b56290f3dd1390c3ca812f94417ae3f7e4eb12a216364bdbd0be0027&=&format=webp&quality=lossless&width=1334&height=344)
+![AssetStore 2D Characters](images/lesson-3-4/asset-store-characters.png)
 
 ---
 
@@ -127,7 +127,7 @@ Pricing → Free Assets
 
 ## Приклад
 
-![Create Project Screen](https://media.discordapp.net/attachments/917547349864230912/1469367086626373632/image.png?ex=69a50ffc&is=69a3be7c&hm=c963b4491db2f896c1a1ba3cbf27b42566a907caaac0ce717e80300d7d44b9a0&=&format=webp&quality=lossless&width=1147&height=421)
+![Create Project Screen](images/lesson-3-4/create-2d-project.png)
 
 ---
 
@@ -167,17 +167,21 @@ Create Project
 2. Натисніть кнопку  
 **Add to My Assets**
 
-![Add To My Assets](https://media.discordapp.net/attachments/917547349864230912/1469367086940688626/image.png?ex=69a50ffd&is=69a3be7d&hm=fa3774d3513efd4aab3d49c3461a7850c44e358079a4591f2fd650e5bea3ce4d&=&format=webp&quality=lossless&width=1147&height=95)
+![Add To My Assets](images/lesson-3-4/free-platform-game-assets.png)
 
 ---
 
 3. Натисніть  
 **Open in Unity**
 
+![Asset added to My Assets](images/lesson-3-4/added-to-my-assets.png)
+
 ---
 
 4. Якщо браузер запитає, натисніть  
 **Відкрити Unity Editor**
+
+![Browser prompt to open Unity Editor](images/lesson-3-4/open-unity-editor-prompt.png)
 
 ---
 
@@ -189,7 +193,7 @@ Create Project
 
 **Download**
 
-![Download Asset](https://media.discordapp.net/attachments/917547349864230912/1469367086626373632/image.png?ex=69a50ffc&is=69a3be7c&hm=c963b4491db2f896c1a1ba3cbf27b42566a907caaac0ce717e80300d7d44b9a0&=&format=webp&quality=lossless&width=1147&height=421)
+![Download Asset](images/lesson-3-4/package-manager-download.png)
 
 ---
 
@@ -197,23 +201,13 @@ Create Project
 
 **Import**
 
-![Import Asset](https://media.discordapp.net/attachments/917547349864230912/1469367086626373632/image.png?ex=6987663c&is=698614bc&hm=b5e6c1938b9e4d3e7fbcd411015f52eee84ee8edc3d3854c3579bb8e22d7e163&=&format=webp&quality=lossless)
+![Import Asset](images/lesson-3-4/package-manager-import.png)
 
 ---
 
-7. У вікні імпорту натисніть:
+7. У вікні **Import Unity Package** перевірте вибрані файли й натисніть **Import**:
 
-**Download**
-
-![Import Window](https://media.discordapp.net/attachments/917547349864230912/1469368412403663019/image.png?ex=69876779&is=698615f9&hm=c8ad3050b0de14b295cb4c3f530b6b5d56cd265b511f2e8084449ac69bdd41f8&=&format=webp&quality=lossless)
-
-**Import**
-
-![Import Window](https://media.discordapp.net/attachments/917547349864230912/1469368412819034306/image.png?ex=69876779&is=698615f9&hm=baad22efda3d8bc6273f00abbfabbfaca0a4aa55c1efafb452f7c4cb807572a8&=&format=webp&quality=lossless)
-
-та ще раз імпорт
-
-![Import Window](https://media.discordapp.net/attachments/917547349864230912/1469370781669523641/image.png?ex=698769ad&is=6986182d&hm=388c0fcfd4780c366cc91606d55d2dbc4dd5e6c6655514ea7c22d9a5234c5c89&=&format=webp&quality=lossless)
+![Import Unity Package](images/lesson-3-4/import-unity-package.png)
 
 ---
 
@@ -236,7 +230,7 @@ Create Project
 
 ## Приклад розташування панелей
 
-![Unity Panels](https://cdn.discordapp.com/attachments/917547349864230912/1469371492062990458/image.png?ex=69876a57&is=698618d7&hm=b33f5072c6afe5c7d5e19d9c13071a023118fe0bdf804cddfc2fd586ac032076&)
+![Unity Panels](images/lesson-3-4/unity-editor-panels.png)
 
 ---
 
@@ -354,7 +348,7 @@ Add Component
 
 ## Приклад
 
-![Rigidbody and Polygon Collider](https://cdn.discordapp.com/attachments/917547349864230912/1469372645668814869/image.png?ex=69876b6a&is=698619ea&hm=9b6b3f12e0c6411c18c565c7956aa0308e450f4c31317f25d7879996c3ebc54c&)
+![Rigidbody and Polygon Collider](images/lesson-3-4/rigidbody-polygon-collider.png)
 
 ---
 
@@ -417,7 +411,7 @@ Add Component
 
 Зелена обводка навколо персонажа це зона зіткнення.
 
-![Collider Example 1](https://media.discordapp.net/attachments/917547349864230912/1469372906298413146/image.png?ex=69876ba8&is=69861a28&hm=3f6d3e0bd907a9e4b6f90822884bb78f16ac8d1faab649b6a44f4134cf96890a&=&format=webp&quality=lossless)
+![Collider Example 1](images/lesson-3-4/player-collider-outline.png)
 
 ---
 
@@ -441,7 +435,7 @@ Edit Collider
 
 ```
 
-![Edit Collider Button](https://media.discordapp.net/attachments/917547349864230912/1469372906730557440/image.png?ex=69876ba8&is=69861a28&hm=3857d34490750cfb5e79047ecf5981507e0b2421f03e2f7e374370d246f1a27c&=&format=webp&quality=lossless)
+![Edit Collider Button](images/lesson-3-4/edit-polygon-collider.png)
 
 ---
 
@@ -473,7 +467,7 @@ Collider повинен максимально точно повторювати
 
 Приклад:
 
-![Create C# Script](https://media.discordapp.net/attachments/917547349864230912/1469373991239155847/image.png?ex=69876cab&is=69861b2b&hm=8d128eab611b93e91990fc3bf1d58d3bebc05d7e14093f9b7ec3a63c2ce8c506&=&format=webp&quality=lossless&width=880&height=960)
+![Create C# Script](images/lesson-3-4/create-csharp-script.png)
 
 Назвіть скрипт: `PlayerMovement`
 
@@ -578,6 +572,30 @@ public class PlayerMovement : MonoBehaviour
     }
 }
 ```
+## Налаштування Ground Check і шару Ground
+
+Створіть під об’єктом **Player** два дочірні empty-об’єкти біля лівої та правої ноги: **GroundCheck_L** і **GroundCheck_R**.
+
+![Ground check objects in Hierarchy](images/lesson-3-4/ground-check-objects.png)
+
+За потреби призначте їм іконки, щоб легше бачити точки у Scene.
+
+![Ground check icon](images/lesson-3-4/ground-check-icon.png)
+
+Для платформ створіть шар **Ground** через **Layer → Add Layer...**, введіть його назву й призначте його кожній платформі.
+
+![Add a layer for platforms](images/lesson-3-4/add-ground-layer.png)
+
+![Name the Ground layer](images/lesson-3-4/name-ground-layer.png)
+
+![Select the Ground layer](images/lesson-3-4/select-ground-layer.png)
+
+Після додавання скрипта призначте в Inspector **Ground Check L**, **Ground Check R** та **Ground Layer**.
+
+![Player Movement component fields](images/lesson-3-4/player-movement-component.png)
+
+---
+
 # Крок. Відкриття вікон Animator та Animation
 
 ## Що потрібно зробити
@@ -601,7 +619,7 @@ Window → Animation → Animator
 
 ## Приклад
 
-![Open Animator And Animation](https://media.discordapp.net/attachments/917547349864230912/1469378726260244724/image.png?ex=69a51ad4&is=69a3c954&hm=1d01c22b354bb9fe63255e852619578abb85bef47985772130005b361b32185a&=&format=webp&quality=lossless&width=961&height=983)
+![Open Animator And Animation](images/lesson-3-4/open-animation-windows.png)
 
 ---
 
@@ -631,6 +649,20 @@ Window → Animation → Animator
 - Animation
 - Animator
 
+## Створення анімаційних кліпів
+
+Виберіть **Player** у Hierarchy, у вікні **Animation** натисніть **Create** й створіть кліпи Idle, Walk та Jump.
+
+![Create an animation clip](images/lesson-3-4/create-animation-clip.png)
+
+Перемикайте кліпи у списку та додавайте кадри зі спрайтів персонажа.
+
+![Select an animation clip](images/lesson-3-4/select-animation-clip.png)
+
+![Jump animation keyframes](images/lesson-3-4/jump-animation-keyframes.png)
+
+---
+
 # Крок. Налаштування переходів в Animator (Make Transition)
 
 ## Що потрібно зробити
@@ -641,7 +673,7 @@ Window → Animation → Animator
 
 ## Приклад структури
 
-![Animator Transitions](https://media.discordapp.net/attachments/917547349864230912/1469379823594897631/image.png?ex=69a51bd9&is=69a3ca59&hm=a8917cb4911a15acb50f8382cf6cfc74286552618d50fd5de63df49b3cd70edd&=&format=webp&quality=lossless&width=1026&height=504)
+![Animator Transitions](images/lesson-3-4/animator-transitions.png)
 
 ---
 
@@ -736,7 +768,7 @@ IsJumping
 
 ## Приклад
 
-![Animator Parameters](https://media.discordapp.net/attachments/917547349864230912/1469380129645137930/image.png?ex=69a51c22&is=69a3caa2&hm=aa0664efb9780160f5dd76d142688be117ffac96f67b3eb8b91d8f5ffc5148e2&=&format=webp&quality=lossless&width=734&height=659)
+![Animator Parameters](images/lesson-3-4/animator-parameters.png)
 
 ---
 
@@ -791,7 +823,7 @@ IsJumping
 
 ## Приклад
 
-![Jump Transition Settings](https://media.discordapp.net/attachments/917547349864230912/1469380760287969311/image.png?ex=69a51cb9&is=69a3cb39&hm=31dc67ea6853a5958f883d6d76350f136a4c77ef4fd43cfa45592377a4e687a0&=&format=webp&quality=lossless&width=1197&height=1093)
+![Jump Transition Settings](images/lesson-3-4/jump-transition.png)
 
 ---
 
@@ -859,11 +891,11 @@ IsWalking = false
 
 Idle → Walk:
 
-![Idle To Walk](https://media.discordapp.net/attachments/917547349864230912/1469381204125028475/image.png?ex=69a51d22&is=69a3cba2&hm=daadf38820e8a2690d3982d814cf94a318bc71148f4ef06197071dd09904d174&=&format=webp&quality=lossless&width=1147&height=1044)
+![Idle To Walk](images/lesson-3-4/idle-to-walk-transition.png)
 
 Walk → Idle:
 
-![Walk To Idle](https://media.discordapp.net/attachments/917547349864230912/1469381204611436818/image.png?ex=69a51d22&is=69a3cba2&hm=f7f8bb2f3a170b96481e12048b85bfe911666d0ab40624c83904f8befdb4ba2a&=&format=webp&quality=lossless&width=1147&height=1051)
+![Walk To Idle](images/lesson-3-4/walk-to-idle-transition.png)
 
 ---
 
@@ -1006,7 +1038,7 @@ public class PlayerMovement : MonoBehaviour
 У параметрі Ground Layer потрібно вибрати шар Ground, який ви створювали раніше та призначали всім блокам платформи. Без цього перевірка приземлення працювати не буде.
 
 Якщо всі поля підключені правильно, персонаж зможе рухатися, стрибати та коректно перемикати анімації.
-![](https://media.discordapp.net/attachments/917547349864230912/1469386651309703168/image.png?ex=69a52235&is=69a3d0b5&hm=88da2272f4e7171cd1a7df7f4f6a373860df6bbc5a3680ebbb519c0d6fbd55e8&=&format=webp&quality=lossless&width=1334&height=443)
+![Player Movement references](images/lesson-3-4/player-movement-references.png)
 
 
 # Тепер запустіть та перевірте!
