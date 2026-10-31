@@ -30,9 +30,18 @@
 
 ## Частина 1. Створення шару `Interactable`
 
-### Крок 1. Додати новий шар
+### Крок 1. Відкрити налаштування Layer
 
-![Create Interactable Layer](https://media.discordapp.net/attachments/917547349864230912/1479550770134257714/image.png?ex=69ac7288&is=69ab2108&hm=f7aba7c58f51c4814771b953127e23ada288f9650dd368c096f767c633dc0ede&=&format=webp&quality=lossless)
+![Add Layer Menu](images/lesson-8-9/add-layer-menu.png)
+
+У `Inspector` зверху знайдіть поле `Layer`.
+
+1. Натисніть випадаючий список `Layer`
+2. Оберіть `Add Layer...`
+
+### Крок 2. Додати новий шар
+
+![Create Interactable Layer](images/lesson-8-9/create-interactable-layer.png)
 
 У будь-який вільний `User Layer` впишіть:
 
@@ -40,22 +49,13 @@
 
 Цей шар потрібен, щоб `Raycast` перевіряв тільки інтерактивні об'єкти.
 
-### Крок 2. Відкрити налаштування Layer
-
-![Add Layer Menu](https://media.discordapp.net/attachments/917547349864230912/1479550620686880799/image.png?ex=69ac7264&is=69ab20e4&hm=39f351ff1b7c2cb8f20acc56f7693b42ec1c8f05ffaeb33d7ed2eb340f03045f&=&format=webp&quality=lossless)
-
-У `Inspector` зверху знайдіть поле `Layer`.
-
-1. Натисніть випадаючий список `Layer`
-2. Оберіть `Add Layer...`
-
 ---
 
 ## Частина 2. Підготовка об'єкта скрині
 
 ### Крок 1. Додати скриню у сцену
 
-![Chest Object](https://media.discordapp.net/attachments/917547349864230912/1479552283950973119/image.png?ex=69ac73f1&is=69ab2271&hm=e07e640268a3ed12c762f56fd0c397af78ac269b20f5c83be72440ce6f914952&=&format=webp&quality=lossless)
+![Chest Object](images/lesson-8-9/chest-object.png)
 
 Перетягніть спрайт скрині з `Project` у `Hierarchy` або прямо в `Scene`.
 
@@ -73,7 +73,7 @@
 
 ### Крок 3. Встановити правильний Layer
 
-![Chest Layer](https://media.discordapp.net/attachments/917547349864230912/1479552680967012456/image.png?ex=69ac744f&is=69ab22cf&hm=fb22a54b2e06527ee75fe677ee1fa55dfc42fb9c5e0afed43e59262da4bd4ced&=&format=webp&quality=lossless)
+![Chest Layer](images/lesson-8-9/chest-interactable-layer.png)
 
 У `Inspector` встановіть для `Chest`:
 
@@ -83,7 +83,7 @@
 
 ## Частина 3. Анімації скрині
 
-![Chest Animations](https://media.discordapp.net/attachments/917547349864230912/1479553007195783421/image.png?ex=69ac749d&is=69ab231d&hm=3d9b9fec5a11816bbcc0fe576a39bdf47165691754c14728314ac00cb17f9aec&=&format=webp&quality=lossless)
+![Chest Animations](images/lesson-8-9/chest-animation-clips.png)
 
 Створіть 3 кліпи:
 
@@ -103,7 +103,7 @@
 
 ### Крок 1. Створити Canvas
 
-![Create Canvas](https://media.discordapp.net/attachments/917547349864230912/1479554374555664505/image.png?ex=69ac75e3&is=69ab2463&hm=58bbe75064c05a36b704bfb5ea048c1fe11243ab386a8213982f942ec3df4e70&=&format=webp&quality=lossless)
+![Create Canvas](images/lesson-8-9/create-chest-canvas.png)
 
 У `Hierarchy`:
 
@@ -111,7 +111,7 @@
 
 ### Крок 2. Створити корінь UI
 
-![Create ChestUiRoot](https://media.discordapp.net/attachments/917547349864230912/1479554374907858985/image.png?ex=69ac75e3&is=69ab2463&hm=1e21f85790c0c98e687e52ad44050b958d6374d2189f0f2600c4fc3812b43048&=&format=webp&quality=lossless)
+![Create ChestUiRoot](images/lesson-8-9/chest-ui-root.png)
 
 Всередині Canvas створіть порожній об'єкт:
 
@@ -119,7 +119,11 @@
 
 ### Крок 3. Створити Panel
 
-![Create Panel](https://media.discordapp.net/attachments/917547349864230912/1479554373305766049/image.png?ex=69ac75e3&is=69ab2463&hm=a38843d6aa5c21bcbbaa436422537c771a902a67838de4984962608d01145e62&=&format=webp&quality=lossless)
+![Create Panel](images/lesson-8-9/create-chest-panel.png)
+
+Після створення Panel перевірте її розташування на Canvas:
+
+![Chest UI Panel](images/lesson-8-9/chest-panel.png)
 
 Всередині `ChestUiRoot`:
 
@@ -127,7 +131,7 @@
 
 ### Крок 4. Створити 3 слоти предметів
 
-![Chest UI Slots](https://media.discordapp.net/attachments/917547349864230912/1479555257364254954/image.png?ex=69ac76b6&is=69ab2536&hm=12a1c0824c89f9f6a583296419e88f8278dd93b69ef52a5dba47a83919109439&=&format=webp&quality=lossless)
+![Chest UI Slots](images/lesson-8-9/chest-ui-slots.png)
 
 У `Panel` створіть 3 елементи `Image`:
 
@@ -144,7 +148,7 @@
 
 ## Частина 5. Скрипти уроку
 
-![Скрипти взаємодії](https://media.discordapp.net/attachments/917547349864230912/1479556442791870545/image.png?ex=69ac77d0&is=69ab2650&hm=df66d5abb7a22392884df09e6faef80b5570d3e445e0deba430756c5b4d7463b&=&format=webp&quality=lossless)
+![Скрипти взаємодії](images/lesson-8-9/interactable-scripts.png)
 
 У папці `Assets/Scripts/Interactable` мають бути:
 
@@ -396,9 +400,15 @@ public class ChestSlot : MonoBehaviour // клас одного слота пр�
 
 ### Крок 1. PlayerInteractionSystem
 
-![](https://media.discordapp.net/attachments/917547349864230912/1479558719770464296/image.png?ex=69ac79ef&is=69ab286f&hm=3db38e32749d2beb3d5409a4ad0569c59c982e28db9c7bac10362b98ad12b3b8&=&format=webp&quality=lossless)
+![player interaction component](images/lesson-8-9/player-interaction-component.png)
 
 На об'єкт гравця (або дочірній об'єкт взаємодії) додайте `PlayerInteractionSystem`.
+
+Для окремого дочірнього об'єкта натисніть **Create Empty** під Player і назвіть його **PlayerInteractionScript**:
+
+![Create player interaction object](images/lesson-8-9/create-player-interaction-object.png)
+
+![Player interaction object in Hierarchy](images/lesson-8-9/player-interaction-hierarchy.png)
 
 Заповніть:
 
@@ -407,7 +417,7 @@ public class ChestSlot : MonoBehaviour // клас одного слота пр�
 
 ### Крок 2. ChestSlot
 
-![](https://media.discordapp.net/attachments/917547349864230912/1479559203721842800/image.png?ex=69ac7a63&is=69ab28e3&hm=2a33fcad970819fdb7c55cd2aba99dacf088ddc1f6b9a67820f200bb84a5dcae&=&format=webp&quality=lossless)
+![chest slot component](images/lesson-8-9/chest-slot-component.png)
 
 Для кожного `Slot Image` додайте `ChestSlot`.
 
@@ -418,7 +428,7 @@ public class ChestSlot : MonoBehaviour // клас одного слота пр�
 
 ### Крок 3. ChestUI
 
-![](https://media.discordapp.net/attachments/917547349864230912/1479559460308516975/image.png?ex=69ac7aa0&is=69ab2920&hm=c2f73a5041f7e95cbd49da1e7ae5318b79329957a66ab8c2b2877414acd6efae&=&format=webp&quality=lossless)
+![chest ui component](images/lesson-8-9/chest-ui-component.png)
 
 На об'єкті (наприклад `Script`) з компонентом `ChestUI` заповніть:
 
@@ -429,7 +439,7 @@ public class ChestSlot : MonoBehaviour // клас одного слота пр�
 
 ## Частина 7. Додатково: заповнення `ChestSlot`
 
-![](https://media.discordapp.net/attachments/917547349864230912/1479560360511148154/image.png?ex=69ac7b76&is=69ab29f6&hm=ef602055cb5f161a494c33cc11b501faefa81caf8a66392d5d0523a3a6aa2e68&=&format=webp&quality=lossless)
+![chest slot references](images/lesson-8-9/chest-slot-references.png)
 
 Повторіть налаштування `Label` і `Button` для кожного слота.
 
@@ -443,7 +453,7 @@ public class ChestSlot : MonoBehaviour // клас одного слота пр�
 
 ## Частина 8. Підключення `Chest` до скрині
 
-![](https://media.discordapp.net/attachments/917547349864230912/1479562071527002163/image.png?ex=69ac7d0e&is=69ab2b8e&hm=cdffc06f19ecb2941e02ecb563ab343723228a37d4c119ccd6d781e9d0c0edd1&=&format=webp&quality=lossless)
+![chest component](images/lesson-8-9/chest-component.png)
 
 На об'єкт `Chest` додайте компонент `Chest (Script)`.
 
@@ -456,7 +466,7 @@ public class ChestSlot : MonoBehaviour // клас одного слота пр�
 
 ## Частина 9. Налаштування Animator
 
-![](https://media.discordapp.net/attachments/917547349864230912/1479562799050129500/image.png?ex=69ac7dbc&is=69ab2c3c&hm=ab41538af8bc200249bb2cbe675f6fe420db34f81dbcab95785181ef225f8f00&=&format=webp&quality=lossless)
+![chest animator states](images/lesson-8-9/chest-animator-states.png)
 
 Перевірте стани в `Animator`:
 
@@ -466,7 +476,7 @@ public class ChestSlot : MonoBehaviour // клас одного слота пр�
 
 Налаштуйте переходи відповідно до вашої логіки відкриття.
 
-![](https://media.discordapp.net/attachments/917547349864230912/1479563209068384307/image.png?ex=69ac7e1d&is=69ab2c9d&hm=428466e7a63a04a56f4609961d827450c780a8d369783837a086b594059a184c&=&format=webp&quality=lossless)
+![chest animator open transition](images/lesson-8-9/chest-animator-open-transition.png)
 
 Якщо використовуєте параметр `Open`, перевірте:
 
